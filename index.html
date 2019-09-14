@@ -16,13 +16,13 @@
     <li><a href="#nav" aria-label="skip to navigation"></a></li>
     <li><a href="#main" aria-label="skip to main content"></a></li>
   </ul>
-  <header>
+  <header role="banner">
     <div class="grid">
       <div class="unit xs-1 s-1 m-1 l-1-2">
-        <h1>枯山水<br>Rock Gardens</h1>
+        <h1 class="yotta">枯山水<br>Rock Gardens</h1>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-2">
-        <nav>
+        <nav role="navigation" id="nav" tabindex="0">
           <ul>
             <li><a href="#">Viewing</a></li>
             <li><a href="#">Gravel</a></li>
@@ -31,15 +31,15 @@
         </nav>
       </div>
       <div class="unit">
-        <img class="img-flex" src="images/banner.svg" alt="…">
+        <img class="img-flex embed-item" src="images/banner.svg" alt="banner image">
       </div>
     </div>
   </header>
 
   <main>
-    <div class="grid">
+    <div class="grid" role="main" id="main" tabindex="0">
       <section class="unit">
-        <div class="grid">
+        <div class="grid max-length text-center">
           <div class="unit l-1">
             <p>自然の親密な本質を模倣し、人生の真の意味を発見する。</p>
           </div>
@@ -57,7 +57,7 @@
           <div class="unit">
             <h2>閲覧<br>Viewing</h2>
             <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the hojo</p>
-            <a href="#" class="btn">Learn more about Viewing</a>
+            <a href="#" class="btn btn-ghost">Learn more about Viewing</a>
           </div>
         </div>
       </section>
@@ -70,7 +70,7 @@
           <div class="unit">
             <h2>砂利<br>Gravel</h2>
             <p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
-            <a href="#" class="btn">Learn more about Gravel</a>
+            <a href="#" class="btn btn-ghost">Learn more about Gravel</a>
           </div>
         </div>
       </section>
@@ -83,14 +83,14 @@
           <div class="unit">
             <h2>象徴主義<br>Symbolism</h2>
             <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
-            <a href="#" class="btn">Learn more about Symbolism</a>
+            <a href="#" class="btn btn-ghost">Learn more about Symbolism</a>
           </div>
         </div>
       </section>
     </div>
   </main>
 
-  <footer>
+  <footer role="conteninfo">
     <small>© 794 Heian Period</small>
   </footer>
 
