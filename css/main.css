@@ -6,6 +6,11 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
+.intro {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}
+
 .btn-ghost {
   color: #005e76;
   border-color: #8bc9d9;
